@@ -197,7 +197,7 @@ export default function ProjectCategories() {
         {activeProjects?.map((project) => (
           <Card
             key={project.id}
-            className="group w-[350px] hover:shadow-xl transition-all duration-300 hover:-translate-y-2 overflow-hidden"
+            className="group sm:w-[350px] lg:w-[450px] hover:shadow-xl transition-all duration-300 hover:-translate-y-2 overflow-hidden"
           >
             {/* Project Image */}
             <div className="relative overflow-hidden">
