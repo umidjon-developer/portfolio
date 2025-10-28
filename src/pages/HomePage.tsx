@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <div className=" min-h-screen overflow-hidden">
-
       {/* Animated Grid Background */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#8b5cf610_1px,transparent_1px),linear-gradient(to_bottom,#8b5cf610_1px,transparent_1px)] bg-[size:4rem_4rem]" />
 
@@ -92,15 +91,19 @@ export default function Home() {
               className="flex gap-4 "
             >
               {[
-                { icon: Github, href: "https://github.com", label: "GitHub" },
+                {
+                  icon: Github,
+                  href: "https://github.com/umidjon-developer",
+                  label: "GitHub",
+                },
                 {
                   icon: Linkedin,
-                  href: "https://linkedin.com",
+                  href: "https://www.linkedin.com/in/umidjon-gafforov-8b151b325",
                   label: "LinkedIn",
                 },
                 {
                   icon: Twitter,
-                  href: "https://twitter.com",
+                  href: "https://x.com/umidjondevv",
                   label: "Twitter",
                 },
               ].map((social) => (
